@@ -52,11 +52,6 @@ public class PaymentController {
        Boolean deleted = paymentService.deletePayment(paymentId);
        return deleted ? "Payment refunded" : "Payment not found";
     }
-//    //@GetMapping("/statuses")
-//    //public List<String> getPaymentStatuses() {
-//        //return paymentService.getPaymentStatuses();
-//    //}
-//
 }
 
 
